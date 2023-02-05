@@ -3,15 +3,117 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: #d9dcd6;
+}
+
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #4fb876;
-    color: #ffffff;
+    background-color: rgb(1, 1, 38);
+    color: #1e9680;
+    height: 24vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    background-color: #4fb876;
+    background-color: #1e9680;
+    color: white;
+    width: 20vw;
+    padding: 5px;
+}
+
+header nav {
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: #1e9680;
+}
+header nav ul li a{
+    color:#1e9680
+}
+.nav-links {
+ color: red;
+}
+
+p {
+    text-align: right;
+}
+.Parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.About-me {
+    flex-basis: 20%;
+    border-right: 5px solid red;
+    margin-right: 20px; 
+}
+.about-me-content {
+    flex-basis: 66%;
     
+}
+
+.Work {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    flex-basis: 20%;
+    border-right: 5px solid red;
+    margin-right: 20px;
+
+}
+.column-2 {
+    flex-basis: 33%;
+}
+.Big-image {
+    background-image: url("../stock\ image.jpeg");
+    background-size: cover;
+    height: 300px;
+    width: 600px;
+    align-items: flex-end;
+    flex-basis: 66%;
+   
+
+}
+.image1 {
+    background-image: url("../stock\ image.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    flex-basis: 33%;
+    margin: 5px;
+  
+}
+.image2 {
+    background-image: url("../stock\ image.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    flex-basis: 33%;
+}
+.image3 {
+    background-image: url("../stock\ image.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    flex-basis: 33%;
+}
+.image4 {
+    background-image: url("../stock\ image.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    flex-basis: 33%;
 }
