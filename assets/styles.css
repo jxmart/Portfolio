@@ -12,7 +12,7 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(1, 1, 38);
-    color: #1e9680;
+    color: #4bdbc1;
     height: 24vh;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-    background-color: #1e9680;
+    background-color: #4bdbc1;
     color: white;
     width: 20vw;
     padding: 5px;
@@ -37,18 +37,14 @@ header nav {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    color: #1e9680;
+    color: #4bdbc1;
 }
-header nav ul li a{
-    color:#1e9680
-}
-.nav-links {
- color: red;
+header nav ul li a {
+    color: #4bdbc1;
 }
 
-p {
-    text-align: right;
-}
+
+
 .Parent {
     display: flex;
     flex-wrap: wrap;
@@ -56,12 +52,13 @@ p {
 }
 .About-me {
     flex-basis: 20%;
-    border-right: 5px solid red;
+    border-right: 5px solid grey;
     margin-right: 20px; 
-}
+  
+   }
 .about-me-content {
     flex-basis: 66%;
-    
+    text-align: right;
 }
 
 .Work {
@@ -70,7 +67,7 @@ p {
 }
 .column {
     flex-basis: 20%;
-    border-right: 5px solid red;
+    border-right: 5px solid grey;
     margin-right: 20px;
 
 }
@@ -84,9 +81,14 @@ p {
     width: 600px;
     align-items: flex-end;
     flex-basis: 66%;
+    margin: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4bdbc1;
+}
    
 
-}
+
 .image1 {
     background-image: url("../stock\ image.jpeg");
     background-size: cover;
@@ -94,26 +96,57 @@ p {
     width: 300px;
     flex-basis: 33%;
     margin: 5px;
-  
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4bdbc1;
 }
+  
+
 .image2 {
     background-image: url("../stock\ image.jpeg");
     background-size: cover;
     height: 150px;
     width: 300px;
     flex-basis: 33%;
+    margin: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4bdbc1;
 }
+
 .image3 {
     background-image: url("../stock\ image.jpeg");
     background-size: cover;
     height: 150px;
     width: 300px;
     flex-basis: 33%;
+    margin: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4bdbc1;
 }
+
 .image4 {
     background-image: url("../stock\ image.jpeg");
     background-size: cover;
     height: 150px;
     width: 300px;
     flex-basis: 33%;
+    margin: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4bdbc1;
 }
+.contact-me {
+
+}
+.contact-me-h3 {
+
+}
+.contact-links {
+    display: flex;
+    float: right;
+    
+
+}
+
